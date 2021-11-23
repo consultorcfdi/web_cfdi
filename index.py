@@ -22,6 +22,9 @@ def servicios():
 def c_v():
     return render_template('bio.html')
 
+@app.route('/feed_back')    
+def feed_back():
+    return render_template('/feed_back.html')
 
 
 if __name__=='__main__':
